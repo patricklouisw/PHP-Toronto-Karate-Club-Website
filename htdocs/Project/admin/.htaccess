@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "admin area"
+AuthUserFile /Applications/XAMPP/user-pass/.htpasswd
+Require valid-user

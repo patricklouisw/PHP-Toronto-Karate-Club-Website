@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} ^/test/images/?.*$
+RewriteCond %{HTTP_ACCEPT} !image/*
+RewriteRule ^(.*)$ http://localhost/test/images/image1.jpg [R=406,L]
